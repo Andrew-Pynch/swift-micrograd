@@ -13,7 +13,7 @@ swift has to offer. The final goal will be the ability create a small MLP from s
 | 🎉 | Autodiff layer | Figure out how to use swifts auto diff mode to create a layer that can automatically compute its gradients |
 | ❗ | MLP | Create Multi Layer Perceptrons of arbitrary size |
 
-# 1:! Port
+# 1:1 Port
 
 To get my feet wet, I essentially did a 1 to 1 port of andrej's python code. While this technically works,
 it's really dumb because it doesn't take advantage of all the cool stuff swift has to offer
