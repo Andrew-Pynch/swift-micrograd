@@ -50,14 +50,13 @@ class Value {
         return out
     }
 
-    func _relu() {
+    func _relu() -> Value {
         if self.data < 0 {
-            var out = Value(data: 0)
+            return Value(data: 0)
         } else {
-            var out = Value(data: self.data)
+            return Value(data: self.data)
         }
     }
-
 
     func _neg() -> Value {
         self.data *= -1
