@@ -1,10 +1,8 @@
-import TensorFlow
 import Foundation
 
 // Type aliases are super useful and save a lot of time
 // Especially when we are manually typing out tensors for testing purposes...
 typealias F = Float
-typealias T = Tensor
 
 class Value {
     var data: F
