@@ -63,5 +63,3 @@ class Value {
         return self
     }
 }
-// var test = Value(data: 1.0)
-// print(test.data)
